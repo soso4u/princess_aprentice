@@ -27,7 +27,7 @@ body {
   color: var(--front);
   width: 100vw;
   height: max-content;
-
+  min-height: 100vh;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -39,3 +39,13 @@ header > img:first-child {
   max-width: 100vw;
   width: 400px;
 }
+
+main {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+main > a > p {
+  text-align: center;
+}
+
